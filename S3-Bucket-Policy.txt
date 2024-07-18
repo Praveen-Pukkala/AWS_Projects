@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1703229669565",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1703229641014",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::vd-entainment-capstone1/*",
+      "Principal": "*"
+    }
+  ]
+}
